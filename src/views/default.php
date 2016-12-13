@@ -23,7 +23,7 @@ if (count($cat)) {
 			echo FileSizeConvert(filesize(INCOMING_DIR.$i));
 			echo '</td>';
 			echo '<td>';
-			echo date('Y-m-d H:M',filemtime(INCOMING_DIR.$i));
+			echo date('Y-m-d H:i',filemtime(INCOMING_DIR.$i));
 			echo '</td>';
 		} else {
 			echo '<td>'.htmlspecialchars($i).'</td>';
