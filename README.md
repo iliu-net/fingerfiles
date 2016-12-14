@@ -35,4 +35,11 @@ Example:
 			POST_URL='https://localhost/path-to/filefinger.php' \
 			upload.sh
 
+## Notes
+
+This script was inspired by [transfer.sh](https://transfer.sh/), an
+easy file sharing from the command line utility.  Which functionality
+is great, unfortunately it is flagged by [google](https://google.com/)
+as a malicious software site.
+
 
